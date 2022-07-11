@@ -1,0 +1,18 @@
+$primary: rgb(32, 44, 57);
+$secondary: rgb(40, 56, 69);
+$danger: rgb(214, 69, 80);
+$light: rgb(235, 235, 235);
+$success: rgb(143, 169, 152);
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 2000px,
+);
+.pointer {
+	cursor: pointer;
+}
+@import '~bootstrap/scss/bootstrap.scss';
